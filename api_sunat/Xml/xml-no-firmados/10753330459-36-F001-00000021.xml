@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <cac:PaymentTerms>
+    <cbc:ID>Detraccion</cbc:ID>
+    <cbc:PaymentPercent>10.00</cbc:PaymentPercent>
+    <cbc:Amount currencyID="PEN">70.00</cbc:Amount>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>0061-241-25</cbc:ID>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentTerms>
+  <ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <ds:Reference URI="">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>Ov0JBy06IBvRDRWQcAqx62ebHA8=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>RT77OjCWWE7ZM318lXpoWtu9oS2yysADohIHB9Lh5XFg550ggbf7RFCyWCzbPnAuFCY8uOUYDf3OEqwuDazJ0Xr9fa5JpHsSTe0ccUbLa0rN8i07Ia9svf4pQyTQ1EYHlckqlBtMnhyrQFlleasvgWOJ1Cf9k6LE82912C+rI8ejtst/qqTY01CnUgCc4cNbj1hwTs3uAwZ37783JHUiezkhH4HDbg+WD29mtOkrjcWfmONcpvHVeRcLgGLD17hSD5gM6t/VI7mD8STztjr8T9fob6UTkTDHCE3TCTT7My6pxXNFwXyZU5NQUE8UJpyyF1BqERYrgebSPJfWZ0Iv9w==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data/>
+    </ds:KeyInfo>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIIuTCCBqGgAwIBAgIUHIzUZnr4dfk9JRuVxEycExxciTIwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEiMCAGA1UEAwwZRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMSBJSTAeFw0yNDA1MTcyMzIwMThaFw0yNzA1MTcyMzIwMThaMIIBGDELMAkGA1UEBhMCUEUxEjAQBgNVBAgMCUxJTUEtTElNQTEfMB0GA1UEBwwWU0FOIEpVQU4gREUgTFVSSUdBTkNITzEtMCsGA1UECgwkREUgTE9TIFNBTlRPUyBTSEFQSUFNQSBPU0NBUiBFTElTQkFOMRowGAYDVQRhDBFOVFJQRS0xMDc1MzMzMDQ1OTEhMB8GA1UECwwYRVJFUF9TVU5BVF8yMDI0MDAwNTI1OTkwMRQwEgYDVQQLDAsxMDc1MzMzMDQ1OTFQME4GA1UEAwxHfHxVU08gVFJJQlVUQVJJT3x8IERFIExPUyBTQU5UT1MgU0hBUElBTUEgT1NDQVIgRUxJU0JBTiBDRFQgMTA3NTMzMzA0NTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1g0y8071GqY2x0HjJsYvj4BRezLPZDh7+ekQuTtz1327Nvc4vbz+I/oRrHDRcsiDCAqi9n4ivAkhE5LBfn06a7zViWhZQ3VV74Z3ReCVOGpg/iVNtzMFLrPZp7ovTmE/OPagD6inQvfFH7+Ges3me+evj3bnZNwkZNZjn6UbrvbLZu5ad332nWSm17aEw/+Us/ap3bTazR6XFlLWudt6yh+eSPJUUKjNY1vSEgMx7Uc+T8C4mPThdtPu9AbxIshT0DsTbsUeUwIxrWIFbVA4zvpezHKOKIU95a3SaEUJJ15/RNlQWAPqfatY8ui8dlQRgWf73COAuPndwbkEQ0OQTAgMBAAGjggOgMIIDnDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFMx9H1biib++Q+2V38FGe79L/d0lMHAGCCsGAQUFBwEBBGQwYjA5BggrBgEFBQcwAoYtaHR0cDovL2NydC5yZW5pZWMuZ29iLnBlL3Jvb3QzL2NhY2xhc3MxaWkuY3J0MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC5yZW5pZWMuZ29iLnBlMIICNwYDVR0gBIICLjCCAiowdwYRKwYBBAGCk2QCAQMBAGWHaAAwYjAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cucmVuaWVjLmdvYi5wZS9yZXBvc2l0b3J5LzAtBggrBgEFBQcCARYhUG9s7XRpY2EgR2VuZXJhbCBkZSBDZXJ0aWZpY2FjafNuMIHEBhErBgEEAYKTZAIBAwEAZ4doADCBrjAyBggrBgEFBQcCARYmaHR0cHM6Ly9wa2kucmVuaWVjLmdvYi5wZS9yZXBvc2l0b3Jpby8weAYIKwYBBQUHAgIwbB5qAEQAZQBjAGwAYQByAGEAYwBpAPMAbgAgAGQAZQAgAFAAcgDhAGMAdABpAGMAYQBzACAAZABlACAAQwBlAHIAdABpAGYAaQBjAGEAYwBpAPMAbgAgAEUAQwBFAFAALQBSAEUATgBJAEUAQzCB5wYRKwYBBAGCk2QCAQMBAWeHcwMwgdEwgc4GCCsGAQUFBwICMIHBHoG+AEMAZQByAHQAaQBmAGkAYQdAamZGckgGHMiDFtUNih7dFfOkAACT8HCHkT5gxg==</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+</Invoice>

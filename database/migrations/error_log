@@ -1,0 +1,40 @@
+[22-Jun-2024 21:47:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2023_12_21_201323_create_detail_payments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2023_12_21_201323_create_detail_payments_table.php on line 7
+[22-Jun-2024 21:47:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2024_06_03_200154_create_cuentas_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2024_06_03_200154_create_cuentas_table.php on line 7
+[22-Jun-2024 21:47:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2021_10_22_195703_create_profiles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2021_10_22_195703_create_profiles_table.php on line 7
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2024_01_19_094216_create_stock_products_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2024_01_19_094216_create_stock_products_table.php on line 7
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2023_03_13_113214_create_detail_buys_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2023_03_13_113214_create_detail_buys_table.php on line 7
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2024_01_03_173517_create_permission_tables.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2024_01_03_173517_create_permission_tables.php on line 8
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php on line 7
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2023_03_10_093843_create_purchase_descriptions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2023_03_10_093843_create_purchase_descriptions_table.php on line 7
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2022_10_14_124701_create_series_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2022_10_14_124701_create_series_table.php on line 7
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/empredeg/public_html/database/migrations/2022_10_07_170540_create_identity_document_types_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/migrations/2022_10_07_170540_create_identity_document_types_table.php on line 7

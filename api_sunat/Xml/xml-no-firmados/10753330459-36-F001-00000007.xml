@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice>
+  <cac:PaymentTerms>
+    <cbc:ID>Detraccion</cbc:ID>
+    <cbc:PaymentPercent>12.00</cbc:PaymentPercent>
+    <cbc:Amount currencyID="PEN">70.00</cbc:Amount>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>0061-241-25</cbc:ID>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentTerms>
+</Invoice>

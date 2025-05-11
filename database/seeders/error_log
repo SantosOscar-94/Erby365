@@ -1,0 +1,28 @@
+[22-Jun-2024 21:47:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/BusineSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/BusineSeeder.php on line 7
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/RoleSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/RoleSeeder.php on line 9
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/BusineSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/BusineSeeder.php on line 7
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/TypeDocumentSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/TypeDocumentSeeder.php on line 7
+[22-Jun-2024 21:47:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/DebitNoteTypeSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/DebitNoteTypeSeeder.php on line 7
+[22-Jun-2024 21:47:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/BusineSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/BusineSeeder.php on line 7
+[22-Jun-2024 21:47:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/empredeg/public_html/database/seeders/BusineSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/database/seeders/BusineSeeder.php on line 7

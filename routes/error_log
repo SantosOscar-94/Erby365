@@ -1,0 +1,4 @@
+[22-Jun-2024 21:47:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/empredeg/public_html/routes/web.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/empredeg/public_html/routes/web.php on line 43
